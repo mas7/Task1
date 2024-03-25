@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/mobile-sign-in', function () {
+    return view('mobile-sign-in');
 });
